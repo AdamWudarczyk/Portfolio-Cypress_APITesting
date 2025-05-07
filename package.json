@@ -1,7 +1,15 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "Portfolio-Cypress_ApiTesting",
   "version": "1.0.0",
   "description": "",
+  "devDependencies": {
+    "cypress": "^14.3.2",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "open": "^10.1.1"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
